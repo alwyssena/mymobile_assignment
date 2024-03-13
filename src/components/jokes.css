@@ -1,0 +1,12 @@
+.b{
+    background-color: gray;
+}
+
+.c {
+    padding: 20px;
+    background-color: #f6f8fa;
+    font-family: "Roboto";
+    font-size: 18px;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
