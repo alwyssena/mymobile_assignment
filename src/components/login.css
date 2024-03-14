@@ -1,0 +1,52 @@
+
+  .bg { 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    background-image: linear-gradient(to right, rgb(143, 164, 190) , rgb(8, 8, 3));
+  }
+
+
+
+   @media (max-width: 1000px) {
+    .bg {
+        align-items: normal;
+      background-color: orange;
+
+    }
+  } 
+
+  @media (max-width: 1000px) {
+    .h {
+       text-align: center;
+
+    }
+  } 
+
+
+ 
+
+
+.btn{
+    align-self: center;
+    width: 90px;
+}
+@media (max-width: 1000px) {
+    .btn {
+      align-self: flex-start;
+      width: 20%;
+      
+
+    }
+  } 
+
+
+  @media (max-width: 1000px) {
+    .btm {
+      text-align: center;
+      width: 100%;
+
+    }
+  } 
